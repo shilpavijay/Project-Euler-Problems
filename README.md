@@ -8,6 +8,6 @@ Problems are listed below. The description of the problem can be found in the en
 2. [Counting Reduced Proper Fractions](/CountFracts.py)
 3. [Number Letter Counts](/LetCount.py)
 4. [Calculating the Score of all then Names in a File](/NameScores.py)
-
+5. [Amicable Numbers](/AmicNum.py)
 
 
