@@ -9,8 +9,6 @@
 
 # What is the total of all the name scores in the file?
 
-
-
 # Solution:
 
 
@@ -19,7 +17,7 @@ def alphval(name):
 	name = name.strip('"')
 
 	#create a map for each alphabet with its value
-	valmap = {chr(each):each-64 for each in range(65,91)}
+	valmap = {chr(each): each-64 for each in range(65, 91)}
 
 	val = 0
 	for l in name:
@@ -27,27 +25,23 @@ def alphval(name):
 	return val
 
 
-
 #open the file
-fl = open('names.txt','r')
+fl = open('names.txt', 'r')
 namelist = ''
 
 #loop through the file handler to obtain a string of all names
 for each in fl:
 	namelist += each
 
-#obtain a list  
+#obtain a list
 lst = namelist.split(',')
 
 #sort the list in alphabetical order
 lst.sort()
 
-#get the total score:
+# Get the total score:
 score = 0
 for item in lst:
 	score += alphval(item) * (lst.index(item) + 1)
-
-#testing
-# print((lst.index('"COLIN"')+1) * alphval("COLIN"))
-
+	
 print(score)
