@@ -12,3 +12,4 @@ Problems are listed below. The description of the problem can be found in the en
 6. [Factorial Digit Sum](FactorialSum.py)
 7. [Non Abundant Sum](NonAbundantSum.py)
 8. [Fibonacci number of 1000-digits](FibNum.py)
+9. [Power Digit Sum](PowerDigitSum.py)
