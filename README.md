@@ -3,7 +3,7 @@ Project Euler Problems
 
 Approaching some Problems chosen from Project Euler using Python.
 
-My project-Euler Handle: [shilpamberker](https://projecteuler.net/)
+My Project-Euler Handle: [shilpamberker](https://projecteuler.net/)
 
 Problems are listed below. The description of the problem can be found in the enclosed file.
 
@@ -16,3 +16,4 @@ Problems are listed below. The description of the problem can be found in the en
 7. [Non Abundant Sum](NonAbundantSum.py)
 8. [Fibonacci number of 1000-digits](FibNum.py)
 9. [Power Digit Sum](PowerDigitSum.py)
+10. [Collatz sequence](Collatz.py)
